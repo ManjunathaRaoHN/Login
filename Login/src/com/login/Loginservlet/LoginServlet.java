@@ -30,7 +30,7 @@ public class LoginServlet extends HttpServlet {
 	Logininput logininput=new Logininput();
 	logininput.setUsername(username);
 	logininput.setPassord(password);
-		doGet(request, response);
+		
 		 try {
 	            if (logindao.validate(logininput)) {
 	                //HttpSession session = request.getSession();

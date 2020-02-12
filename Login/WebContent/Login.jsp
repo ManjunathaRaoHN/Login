@@ -8,9 +8,10 @@
 </head>
 <body>
  <div align="center">
-  <h1>Employee Login Form</h1>
+ 
   <form action="<%=request.getContextPath()%>/LoginServlet" method="post">
-   <table style="with: 100%">
+   <table align="center" style="background-color:blue ;width=400">
+    <th><h1>Login Form !!!!</h1></th>
     <tr>
      <td>UserName</td>
      <td><input type="text" name="username" /></td>
@@ -19,9 +20,10 @@
      <td>Password</td>
      <td><input type="password" name="password" /></td>
     </tr>
-
+   <tr><td> <input type="submit" value="Submit" /></td></tr>
+  <td><a href=Registration.jsp>Registration</a></td></tr>
    </table>
-   <input type="submit" value="Submit" />
+  
   </form>
  </div>
 </body>
